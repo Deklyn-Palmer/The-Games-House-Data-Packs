@@ -12,6 +12,8 @@ setblock -1 4 -1 air replace
 setblock 0 4 -2 air replace
 setblock 1 4 -1 air replace
 
+setblock -11 4 -17 air replace
+
 kill @e[type=item]
 
 setblock 0 5 -1 chest{LootTable:"hg:mctools/chest_basic"} replace
@@ -20,6 +22,16 @@ setblock 0 5 1 chest{LootTable:"hg:mctools/chest_middle"} replace
 setblock 1 5 0 chest{LootTable:"hg:mctools/chest_good"} replace
 
 setblock 2 4 0 chest{LootTable:"hg:mctools/chest_middle"} replace
+setblock 1 4 1 chest{LootTable:"hg:mctools/chest_good"} replace
+setblock 0 4 2 chest{LootTable:"hg:mctools/chest_basic"} replace
+setblock -1 4 1 chest{LootTable:"hg:mctools/chest_middle"} replace
+setblock -2 4 0 chest{LootTable:"hg:mctools/chest_basic"} replace
+setblock -1 4 -1 chest{LootTable:"hg:mctools/chest_middle"} replace
+setblock 0 4 -2 chest{LootTable:"hg:mctools/chest_middle"} replace
+setblock 1 4 -1 chest{LootTable:"hg:mctools/chest_good"} replace
+
+setblock -11 4 -17 chest{LootTable:"hg:mctools/chest_middle"} replace
+
 setblock 1 4 1 chest{LootTable:"hg:mctools/chest_good"} replace
 setblock 0 4 2 chest{LootTable:"hg:mctools/chest_basic"} replace
 setblock -1 4 1 chest{LootTable:"hg:mctools/chest_middle"} replace
