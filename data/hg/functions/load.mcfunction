@@ -1,0 +1,1 @@
+schedule function hg:load_message 2s
