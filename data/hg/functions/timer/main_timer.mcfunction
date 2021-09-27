@@ -6,5 +6,3 @@ schedule function hg:timer/1_sec 5s
 schedule function hg:timer/go 6s
 title @a times 20 120 20
 title @a actionbar {"text":"Get Ready!", "color":"light_purple"}
-
-function hg:containers/containers_destroy_all
