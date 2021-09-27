@@ -5,3 +5,5 @@ function hg:containers/containers_all
 schedule function hg:timer/main_timer 3s
 
 schedule function hg:containers/containers_destroy_all 9s
+
+schedule function hg:messages/chest_refill 20s
