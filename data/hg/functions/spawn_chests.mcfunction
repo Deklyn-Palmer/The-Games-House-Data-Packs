@@ -15,7 +15,7 @@ setblock 1 4 -1 air replace
 setblock -11 4 -17 air replace
 setblock -43 4 -20 air replace
 setblock -36 4 -20 air replace
-setblock -35 5 8 air replace
+setblock -38 5 8 air replace
 setblock -30 4 -23 air replace
 
 setblock -87 7 3 air replace
