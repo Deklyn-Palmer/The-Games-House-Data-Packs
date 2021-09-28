@@ -1,6 +1,6 @@
 gamemode adventure @a
 
-team join Lobby @a
+function hg:lobby_team
 
 scoreboard players set tghhgDummy startingPosition 0
 
