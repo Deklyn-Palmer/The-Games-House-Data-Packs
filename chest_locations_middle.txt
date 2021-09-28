@@ -14,9 +14,9 @@ Tartgeted Block Ground: 2, 4, 0 Done
 
 Middle Outer
 -11 4 -17 Done
--43 4 -20
--36 4 -9
--38 5 8
+-43 4 -20 Done
+-36 4 -9 Done
+-38 5 8 Done
 
 Caves
 -87 7 3
