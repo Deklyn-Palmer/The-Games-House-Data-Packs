@@ -1,2 +1,2 @@
-team modify aliveplayer friendlyFire false
+team modify aliveplayer friendlyFire true
 title @a actionbar {"text":"Invulnerability Ended!", "color":"dark_red"}
