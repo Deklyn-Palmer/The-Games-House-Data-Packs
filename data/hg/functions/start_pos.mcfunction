@@ -1,4 +1,4 @@
-execute as @a[team=alivePlayer] run tellraw @a [{"text":"["},{"text":"TGH Hunger Games","color":"#FFA300","bold":true},{"text":"] ","extra":[{"selector":"@s"},{"text":" has entered the game!"}]}]
+tellraw @a [{"text":"["},{"text":"TGH Hunger Games","color":"#FFA300","bold":true},{"text":"] ","extra":[{"selector":"@s"},{"text":" has entered the game!"}]}]
 
 execute if score tghhgDummy startingPosition matches 0 run tp @p[x=0,y=128,z=0] 0.5 5 -15.5
 execute if score tghhgDummy startingPosition matches 0 run execute as @a[team=alivePlayer] run tellraw @a [{"text":"["},{"text":"1/8","color":"#FFA300","bold":true},{"text":"] Players have joined!"}]
