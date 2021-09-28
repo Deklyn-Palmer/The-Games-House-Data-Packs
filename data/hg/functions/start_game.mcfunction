@@ -1,5 +1,7 @@
 gamemode adventure @a
 
+execute as @a run team join alivePlayer @s
+
 difficulty easy
 
 function hg:spawn_chests
