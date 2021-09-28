@@ -1,6 +1,6 @@
 gamemode adventure @a
 
-execute as @a run team join Lobby @s
+team join Lobby @a
 
 function hg:containers/containers_all
 
