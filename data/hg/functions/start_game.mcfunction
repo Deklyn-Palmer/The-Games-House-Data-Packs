@@ -1,3 +1,7 @@
+gamemode adventure @a
+
+difficulty easy
+
 function hg:spawn_chests
 
 function hg:containers/containers_all
