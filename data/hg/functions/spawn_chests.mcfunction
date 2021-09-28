@@ -33,23 +33,23 @@ setblock -62 5 -38 air replace
 kill @e[type=item]
 
 setblock 0 5 -1 chest{LootTable:"hg:mctools/chest_basic"} replace
-setblock -1 5 0 chest{LootTable:"hg:mctools/chest_middle"} replace
-setblock 0 5 1 chest{LootTable:"hg:mctools/chest_middle"} replace
-setblock 1 5 0 chest{LootTable:"hg:mctools/chest_good"} replace
+setblock -1 5 0 chest[facing=west]{LootTable:"hg:mctools/chest_middle"} replace
+setblock 0 5 1 chest[facing=south]{LootTable:"hg:mctools/chest_middle"} replace
+setblock 1 5 0 chest[facing=east]{LootTable:"hg:mctools/chest_good"} replace
 
-setblock 2 4 0 chest{LootTable:"hg:mctools/chest_middle"} replace
-setblock 1 4 1 chest{LootTable:"hg:mctools/chest_good"} replace
-setblock 0 4 2 chest{LootTable:"hg:mctools/chest_basic"} replace
-setblock -1 4 1 chest{LootTable:"hg:mctools/chest_middle"} replace
-setblock -2 4 0 chest{LootTable:"hg:mctools/chest_basic"} replace
+setblock 2 4 0 chest[facing=east]{LootTable:"hg:mctools/chest_middle"} replace
+setblock 1 4 1 chest[facing=south]{LootTable:"hg:mctools/chest_good"} replace
+setblock 0 4 2 chest[facing=south]{LootTable:"hg:mctools/chest_basic"} replace
+setblock -1 4 1 chest[facing=south]{LootTable:"hg:mctools/chest_middle"} replace
+setblock -2 4 0 chest[facing=west]{LootTable:"hg:mctools/chest_basic"} replace
 setblock -1 4 -1 chest{LootTable:"hg:mctools/chest_middle"} replace
 setblock 0 4 -2 chest{LootTable:"hg:mctools/chest_middle"} replace
 setblock 1 4 -1 chest{LootTable:"hg:mctools/chest_good"} replace
 
 setblock -11 4 -17 chest{LootTable:"hg:mctools/chest_middle"} replace
 setblock -43 4 -20 chest{LootTable:"hg:mctools/chest_good"} replace
-setblock -36 4 -20 chest{LootTable:"hg:mctools/chest_basic"} replace
-setblock -35 5 8 chest{LootTable:"hg:mctools/chest_awesome"} replace
+setblock -36 4 -9 chest{LootTable:"hg:mctools/chest_basic"} replace
+setblock -38 5 8 chest{LootTable:"hg:mctools/chest_awesome"} replace
 setblock -30 4 -23 chest{LootTable:"hg:mctools/chest_middle"} replace
 
 setblock -87 7 3 chest{LootTable:"hg:mctools/chest_middle"} replace
