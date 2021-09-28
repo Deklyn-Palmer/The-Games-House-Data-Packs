@@ -30,6 +30,8 @@ setblock -72 18 -11 air replace
 setblock -67 24 -9 air replace
 setblock -62 5 -38 air replace
 
+setblock 61 3 73 air replace
+
 kill @e[type=item]
 
 setblock 0 5 -1 chest{LootTable:"hg:mctools/chest_basic"} replace
