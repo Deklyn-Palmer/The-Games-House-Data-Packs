@@ -1,4 +1,4 @@
-execute as @p[team=Lobby,x=0,y=128,z=0] run tellraw @a [{"text":"["},{"text":"TGH Hunger Games","color":"#FFA300","bold":true},{"text":"] ","extra":[{"selector":"@s"},{"text":" has entered the game!"}]}]
+execute as @p[x=0,y=128,z=0,team=Lobby] run tellraw @a [{"text":"["},{"text":"TGH Hunger Games","color":"#FFA300","bold":true},{"text":"] ","extra":[{"selector":"@s"},{"text":" has entered the game!"}]}]
 
 execute if score tghhgDummy startingPosition matches 0 run tp @p[x=0,y=128,z=0] 0.5 5 -15.5
 execute if score tghhgDummy startingPosition matches 0 run execute as @a[team=alivePlayer] run tellraw @a [{"text":"["},{"text":"1/8","color":"#FFA300","bold":true},{"text":"] Players have joined!"}]
@@ -24,6 +24,7 @@ execute if score tghhgDummy startingPosition matches 6 run execute as @a[team=al
 execute if score tghhgDummy startingPosition matches 7 run tp @p[x=0,y=128,z=0] -10.5 5 -10.5
 execute if score tghhgDummy startingPosition matches 7 run execute as @a[team=alivePlayer] run tellraw @a [{"text":"["},{"text":"8/8","color":"#FFA300","bold":true},{"text":"] Players have joined!"}]
 execute if score tghhgDummy startingPosition matches 7 run function hg:start_game
+
 
 execute as @a[x=19,y=0,z=19,dx=-40,dy=8,dz=-40,team=Lobby] run team join alivePlayer @s
 
