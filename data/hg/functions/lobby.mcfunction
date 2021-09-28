@@ -1,4 +1,4 @@
-tp @s 0.5 130.5 0.5
+tp @s 0.5 189.5 0.5
 
 team join Lobby @s
 
