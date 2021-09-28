@@ -2,7 +2,7 @@ tp @s 0.5 130.5 0.5
 
 team join Lobby @s
 
-clear @a
+clear @s
 
 scoreboard players reset @s Dead
 scoreboard players reset @s KillCount
