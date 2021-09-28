@@ -1,4 +1,3 @@
-team join aliveplayer @a
-scoreboard players reset @a KillCount
 scoreboard players reset @a Dead
-scoreboard players set @a Players 0
+scoreboard players set @a KillCount 0
+team join aliveplayer @a
