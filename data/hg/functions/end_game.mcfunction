@@ -2,6 +2,8 @@ gamemode adventure @a
 
 team join Lobby @a
 
+scoreboard players set tghhgDummy startingPosition 0
+
 function hg:containers/containers_all
 
 function hg:stats/reset_scores
