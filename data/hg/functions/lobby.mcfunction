@@ -1,6 +1,6 @@
 tp @s 0.5 189.5 0.5
 
-team join Lobby @s
+team join lobbyPlayer @s
 
 clear @s
 

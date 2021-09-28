@@ -13,4 +13,4 @@ clear @a
 
 kill @e[type=item]
 
-team join Lobby @a
+team join lobbyPlayer @a
