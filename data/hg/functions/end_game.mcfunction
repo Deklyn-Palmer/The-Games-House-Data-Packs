@@ -14,3 +14,5 @@ clear @a
 kill @e[type=item]
 
 team join lobbyPlayer @a
+
+effect give @a[team=lobbyPlayer] minecraft:saturation 100 1 true

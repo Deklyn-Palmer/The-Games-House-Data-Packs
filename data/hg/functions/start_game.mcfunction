@@ -2,6 +2,8 @@ gamemode adventure @a
 
 difficulty easy
 
+effect clear @a
+
 scoreboard players set tghhgDummy gameStart 1
 
 function hg:spawn_chests
