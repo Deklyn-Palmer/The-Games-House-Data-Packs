@@ -1,6 +1,7 @@
 tp @s 0.5 189.5 0.5
 
 team join lobbyPlayer @s
+scoreboard players set @s playerReady 0
 
 clear @s
 

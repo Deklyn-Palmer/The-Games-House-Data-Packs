@@ -1,6 +1,7 @@
 gamemode adventure @a
 
 scoreboard players set tghhgDummy startingPosition 0
+scoreboard players set @a playerReady 0
 
 function hg:containers/containers_all
 
