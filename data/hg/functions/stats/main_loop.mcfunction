@@ -2,6 +2,7 @@ execute if score tghhgDummy gameStart matches 1 run schedule function hg:stats/m
 execute if score tghhgDummy gameStart matches 1 run execute as @a[team=alivePlayer,scores={Dead=1}] run team join deadPlayer @s
 execute if score tghhgDummy gameStart matches 1 run execute as @a[team=deadPlayer,gamemode=!spectator] run gamemode spectator @s
 
+scoreboard players set tghhgDummy playersLeft 0
 execute if score tghhgDummy gameStart matches 1 run execute store result score tghhgDummy playersLeft if entity @a[team=alivePlayer]
 
 execute if score tghhgDummy playersLeft matches 1 run title @a subtitle {"text":"","extra":[{"selector":"@a[team=alivePlayer, limit=1]"},{"text":" has won!"}]}
