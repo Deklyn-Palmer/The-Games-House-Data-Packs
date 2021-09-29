@@ -1,0 +1,1 @@
+give @s diamond_sword{Unbreakable:1b,Enchantments:[{id:"minecraft:sharpness",lvl:5s},{id:"minecraft:fire_aspect",lvl:2s},{id:"minecraft:unbreaking",lvl:3s},{id:"minecraft:mending",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:1000,Operation:0,UUID:[I;139321592,2142785062,-1842014610,1126148087],Slot:"mainhand"}]}
