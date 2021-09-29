@@ -8,7 +8,8 @@ clear @a[team=!lobbyPlayer]
 execute as @a[team=!lobbyPlayer] run function hg:lobby
 
 op FredrickTheFox5
-op Robosapien6192
+op Robosapien6219
 op Th3D4rkSt4r
+op EquinoxGo
 
 kill @e[type=item]
