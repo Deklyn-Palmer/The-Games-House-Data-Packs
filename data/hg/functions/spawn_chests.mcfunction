@@ -81,6 +81,18 @@ setblock -110 10 95 air replace
 setblock -104 5 54 air replace
 setblock -64 9 61 air replace
 
+# Jungle
+setblock 104 35 -41 air replace
+setblock 97 19 -79 air replace
+setblock 85 4 -118 air replace
+setblock 110 4 -113 air replace
+setblock 119 4 -86 air replace
+setblock 115 4 -68 air replace
+setblock 121 4 -43 air replace
+setblock 106 10 -50 air replace
+setblock 87 18 -52 air replace
+setblock 86 13 -87 air replace
+
 kill @e[type=item]
 
 # Middle Upper
@@ -165,3 +177,15 @@ setblock -121 15 127 chest{LootTable:"hg:mctools/chest_good"} replace
 setblock -110 10 95 chest[facing=west]{LootTable:"hg:mctools/chest_middle"} replace
 setblock -104 5 54 chest{LootTable:"hg:mctools/chest_basic"} replace
 setblock -64 9 61 chest{LootTable:"hg:mctools/chest_middle"} replace
+
+# Jungle
+setblock 104 35 -41 chest{LootTable:"hg:mctools/chest_awesome"} replace
+setblock 97 19 -79 chest[facing=south]{LootTable:"hg:mctools/chest_good"} replace
+setblock 85 4 -118 chest[facing=south]{LootTable:"hg:mctools/chest_middle"} replace
+setblock 110 4 -113 chest{LootTable:"hg:mctools/chest_good"} replace
+setblock 119 4 -86 chest{LootTable:"hg:mctools/chest_basic"} replace
+setblock 115 4 -68 chest[facing=west]{LootTable:"hg:mctools/chest_basic"} replace
+setblock 121 4 -43 chest[facing=south]{LootTable:"hg:mctools/chest_basic"} replace
+setblock 106 10 -50 chest[facing=east]{LootTable:"hg:mctools/chest_awesome"} replace
+setblock 87 18 -52 chest[facing=west]{LootTable:"hg:mctools/chest_middle"} replace
+setblock 86 13 -87 chest[facing=west]{LootTable:"hg:mctools/chest_good"} replace

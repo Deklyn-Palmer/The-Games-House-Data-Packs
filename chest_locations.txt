@@ -70,23 +70,23 @@ Hellscape
 8 17 -118 south Done
 
 Desert
--87 1 100 south awesome
--81 6 92 south
--40 9 108 east
--78 12 124 west
--121 15 127
--110 10 95 west
--104 5 54
--64 9 61
+-87 1 100 south awesome Done
+-81 6 92 south Done
+-40 9 108 east Done
+-78 12 124 west Done
+-121 15 127 Done
+-110 10 95 west Done
+-104 5 54 Done
+-64 9 61 Done
 
 Jungle
-104 35 -41 any awesome
-97 19 -79 south
-85 4 -118 south
-110 4 -113 north
-119 4 -86 north
-115 4 -68 west
-121 4 -43 south
-106 10 -50 east awesome
-87 18 -52 west
-86 13 -87 west
+104 35 -41 any awesome Done
+97 19 -79 south Done
+85 4 -118 south Done
+110 4 -113 north Done
+119 4 -86 north Done
+115 4 -68 west Done
+121 4 -43 south Done
+106 10 -50 east awesome Done
+87 18 -52 west Done
+86 13 -87 west Done
