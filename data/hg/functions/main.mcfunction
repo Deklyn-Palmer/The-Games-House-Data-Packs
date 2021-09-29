@@ -1,4 +1,4 @@
-function hg:main
+schedule function hg:main 1s
 
 scoreboard players set tghhgDummy playerReady 0
 execute if score tghhgDummy gameStart matches 0 run execute store result score tghhgDummy playerReady if entity @a[team=alivePlayer, scores={playerReady=1}]

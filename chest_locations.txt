@@ -18,9 +18,9 @@ Middle Outer
 -36 4 -9 Done
 -38 5 8 Done
 -30 4 -23 Done
--18 3 -38
--27 7 -44
--29 11 -62
+-18 3 -38 Done
+-27 7 -44 Done
+-29 11 -62 Done
 
 Caves
 -87 7 3 Done
@@ -34,7 +34,7 @@ Caves
 -72 18 -11 Done
 -67 24 -9 Done
 -62 5 -38 Done
--77 5 -29
+-77 5 -29 east
 -98 4 -36
 
 Village
