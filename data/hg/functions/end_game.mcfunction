@@ -13,3 +13,6 @@ op Th3D4rkSt4r
 op EquinoxGo
 
 kill @e[type=item]
+
+worldborder set 257
+worldborder center 0.5 0.5
