@@ -46,6 +46,11 @@ Village
 -98 8 -100 Done
 -67 5 -120 Done
 -62 11 -100 Done
+-75 4 -71 south 
 
 Swamp
 61 3 73 Done
+
+Desert
+-87 1 100 south awesome
+-81 6 92 south
