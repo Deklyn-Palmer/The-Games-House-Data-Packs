@@ -48,9 +48,22 @@ Village
 -62 11 -100 Done
 -75 4 -71 south 
 
-Swamp
+Swamp/river
 61 3 73 Done
+-35 1 39 east
+-11 1 47 west
+-1 1 74 north awesome
+26 1 65 south
+57 8 62 west awesome
+
+
 
 Desert
 -87 1 100 south awesome
 -81 6 92 south
+-40 9 108 east
+-78 12 124 west
+-121 15 127
+-110 10 95 west
+-104 5 54
+-64 9 61
