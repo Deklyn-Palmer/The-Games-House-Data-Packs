@@ -2,11 +2,15 @@ gamemode adventure @a
 
 difficulty easy
 
+scoreboard players set tghhgDummy gameStart 1
+
 function hg:spawn_chests
 
 function hg:containers/containers_all
 
 function hg:stats/reset_scores
+
+function hg:stats/main_loop
 
 schedule function hg:timer/main_timer 3s
 
