@@ -1,7 +1,7 @@
 difficulty normal
 
 gamemode adventure @a
-effect clear @a[team=!lobblyPlayer]
+effect clear @a[team=!lobbyPlayer]
 
 deop @a[team=!lobbyPlayer]
 
