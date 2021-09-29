@@ -34,8 +34,8 @@ Caves
 -72 18 -11 Done
 -67 24 -9 Done
 -62 5 -38 Done
--77 5 -29 east
--98 4 -36
+-77 5 -29 east Done
+-98 4 -36 Done
 
 Village
 -94 4 -84 Done
@@ -46,17 +46,17 @@ Village
 -98 8 -100 Done
 -67 5 -120 Done
 -62 11 -100 Done
--75 4 -71 south 
--120 4 -44 east awesome
+-75 4 -71 south Done
+-120 4 -44 east awesome Done
 
 Swamp/river
 61 3 73 Done
--35 1 39 east
--11 1 47 west
--1 1 74 north awesome
-26 1 65 south
-57 8 62 west awesome
-69 1 69 (nice) west
+-35 1 39 east Done
+-11 1 47 west Done
+-1 1 74 north awesome Done
+26 1 65 south Done
+57 8 62 west awesome Done
+69 1 69 (nice) west Done
 
 Hellscape
 29 22 -120 any awesome
