@@ -1,3 +1,5 @@
+scoreboard players set tghhgDummy gameStart 0
+
 execute as @p[x=10,y=190,z=1,team=lobbyPlayer] run tellraw @a [{"text":"["},{"text":"TGH Hunger Games","color":"#FFA300","bold":true},{"text":"] ","extra":[{"selector":"@s"},{"text":" has entered the game!"}]}]
 
 execute if score tghhgDummy startingPosition matches 0 run tp @p[x=10,y=190,z=1] 0.5 5 -15.5
