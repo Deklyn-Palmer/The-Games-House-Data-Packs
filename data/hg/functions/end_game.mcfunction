@@ -9,6 +9,7 @@ function hg:stats/reset_scores
 
 tp @a[team=alivePlayer] 0.5 189.5 0.5
 tp @a[team=deadPlayer] 0.5 189.5 0.5
+tp @a[team=lobbyPlayer] 0.5 189.5 0.5
 
 clear @a
 
