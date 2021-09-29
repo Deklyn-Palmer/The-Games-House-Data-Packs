@@ -1,1 +1,1 @@
-tellraw @a {"text": "Hunger Games datapack has loaded!", "color": "#ffa300"}
+tellraw @a {"text": "Hunger Games Datapack has loaded!", "color": "#ffa300"}

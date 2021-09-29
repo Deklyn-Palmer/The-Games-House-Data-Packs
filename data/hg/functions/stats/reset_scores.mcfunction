@@ -1,5 +1,3 @@
-scoreboard players reset @a Dead
-scoreboard players reset @a KillCount
-
-scoreboard players set @a Dead 0
-scoreboard players set @a KillCount 0
+scoreboard players set @s Dead 0
+scoreboard players set @s KillCount 0
+scoreboard players set @s playerReady 0

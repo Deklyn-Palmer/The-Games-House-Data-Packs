@@ -1,1 +1,0 @@
-give @s minecraft:chest{BlockEntityTag:{LootTable:"hg:mctools/chest_awesome_2"}}
