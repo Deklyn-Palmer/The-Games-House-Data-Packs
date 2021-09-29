@@ -59,15 +59,15 @@ Swamp/river
 69 1 69 (nice) west Done
 
 Hellscape
-29 22 -120 any awesome
-46 22 -121 any awesome
-46 18 -104 south
-36 9 -85 north
-10 11 -69 south
--11 12 -75 west
--39 6 -88 south
--20 10 -124 west
-8 17 -118 south
+29 22 -120 any awesome Done
+46 22 -121 any awesome Done
+46 18 -104 south Done
+36 9 -85 north Done
+10 11 -69 south Done
+-11 12 -75 west Done
+-39 6 -88 south Done
+-20 10 -124 west Done
+8 17 -118 south Done
 
 Desert
 -87 1 100 south awesome
