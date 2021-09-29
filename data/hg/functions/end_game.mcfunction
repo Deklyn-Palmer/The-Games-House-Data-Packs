@@ -4,7 +4,11 @@ scoreboard players set tghhgDummy gameStart 0
 function hg:containers/containers_all
 
 gamemode adventure @a[team=!lobbyPlayer]
-execute as @a[team=!lobbyPlayer] run function hg:lobby
 clear @a[team=!lobbyPlayer]
+execute as @a[team=!lobbyPlayer] run function hg:lobby
+
+op FredrickTheFox5
+op Robosapien6192
+op Th3D4rkSt4r
 
 kill @e[type=item]
