@@ -55,8 +55,18 @@ Swamp/river
 -1 1 74 north awesome
 26 1 65 south
 57 8 62 west awesome
+69 1 69 (nice) west
 
-
+Hellscape
+29 22 -120 any awesome
+46 22 -121 any awesome
+46 18 -104 south
+36 9 -85 north
+10 11 -69 south
+-11 12 -75 west
+-39 6 -88 south
+-20 10 -124 west
+8 17 -118 south
 
 Desert
 -87 1 100 south awesome
@@ -67,3 +77,15 @@ Desert
 -110 10 95 west
 -104 5 54
 -64 9 61
+
+Jungle
+104 35 -41 any awesome
+97 19 -79 south
+85 4 -118 south
+110 4 -113 north
+119 4 -86 north
+115 4 -68 west
+121 4 -43 south
+106 10 -50 east awesome
+87 18 -52 west
+86 13 -87 west
