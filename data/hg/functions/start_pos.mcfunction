@@ -1,3 +1,4 @@
+execute if score tghhgDummy gameStart matches 0 run scoreboard players set @p[x=10,y=190,z=1] Dead 0
 execute if score tghhgDummy gameStart matches 0 run execute as @p[x=10,y=190,z=1,team=lobbyPlayer] run tellraw @a [{"text":"["},{"text":"TGH Hunger Games","color":"#FFA300","bold":true},{"text":"] ","extra":[{"selector":"@s"},{"text":" has entered the game!"}]}]
 
 execute if score tghhgDummy gameStart matches 0 run execute if score tghhgDummy startingPosition matches 0 run tp @p[x=10,y=190,z=1] 0.5 5 -15.5
@@ -26,5 +27,6 @@ execute if score tghhgDummy gameStart matches 0 run execute if score tghhgDummy 
 execute if score tghhgDummy gameStart matches 0 run execute if score tghhgDummy startingPosition matches 7 run function hg:start_game
 
 execute if score tghhgDummy gameStart matches 0 run execute as @a[x=19,y=0,z=19,dx=-40,dy=8,dz=-40,team=lobbyPlayer] run team join alivePlayer @s
+
 
 execute if score tghhgDummy gameStart matches 0 run scoreboard players add tghhgDummy startingPosition 1
