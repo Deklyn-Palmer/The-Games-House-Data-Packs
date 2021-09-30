@@ -1,0 +1,7 @@
+summon armor_stand ~ ~ ~ {CustomNameVisible:1b,NoGravity:1b,Invulnerable:1b,Invisible:1b,CustomName:'{"text":"[NAME] [TIME]","color":"dark_red","bold":true,"italic":true}'}
+
+tp -8.5 --- 6.5 [started at 189 and decreases by .25 for every new name] (placement of armourstands on the y axis)
+
+kill @e[name="[NAME] [TIME]"] (For removing/editing an armour stand)
+
+
