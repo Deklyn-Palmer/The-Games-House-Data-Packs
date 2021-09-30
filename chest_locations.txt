@@ -90,3 +90,10 @@ Jungle
 106 10 -50 east awesome Done
 87 18 -52 west Done
 86 13 -87 west Done
+
+Buildings
+111 28 -16 west
+111 28 -8 west
+108 22 -8 east
+108 16 -6 east
+110 5 -15 north
