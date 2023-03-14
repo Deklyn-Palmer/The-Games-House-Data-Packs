@@ -16,3 +16,12 @@ execute as @a run gamemode survival
 scoreboard players reset @a
 scoreboard players set runnersdeaddummy runnersdead 0
 scoreboard players set runnercountdummy runnercount 0
+
+# Cancel all scheduled functions
+schedule clear wmm:game_timer/game_timer_5_minutes
+schedule clear wmm:game_timer/game_timer_1_minute
+schedule clear wmm:game_timer/game_timer_5_seconds
+schedule clear wmm:game_timer/game_timer_4_seconds
+schedule clear wmm:game_timer/game_timer_3_seconds
+schedule clear wmm:game_timer/game_timer_2_seconds
+schedule clear wmm:game_timer/game_timer_1_second
