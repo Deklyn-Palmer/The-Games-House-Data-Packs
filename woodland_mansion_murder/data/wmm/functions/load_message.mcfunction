@@ -1,2 +1,2 @@
 # Message to be displayed when the datapack loads
-tellraw @a {"text": "Woodland Mansion Murder datapack has loaded!", "color": "#ffa300"}
+execute in wmm run tellraw @a {"text": "Woodland Mansion Murder datapack has loaded!", "color": "#ffa300"}
