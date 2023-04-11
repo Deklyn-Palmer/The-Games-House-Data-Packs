@@ -25,3 +25,6 @@ execute in wmm run schedule clear wmm:game_timer/game_timer_4_seconds
 execute in wmm run schedule clear wmm:game_timer/game_timer_3_seconds
 execute in wmm run schedule clear wmm:game_timer/game_timer_2_seconds
 execute in wmm run schedule clear wmm:game_timer/game_timer_1_second
+
+# Signify game has stopped
+scoreboard players set wmm_dummy wmm_gameisrunning 0

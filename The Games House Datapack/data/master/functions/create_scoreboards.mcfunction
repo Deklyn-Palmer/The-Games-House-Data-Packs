@@ -12,6 +12,7 @@ scoreboard objectives add wmm_counter dummy
 scoreboard objectives add wmm_deathcounter deathCount
 scoreboard objectives add wmm_runnercount dummy
 scoreboard objectives add wmm_runnersdead dummy
+scoreboard objectives add wmm_gameisrunning dummy
 
 tellraw @a {"text": "Woodland Mansion Murder Scoreboard Objectives Loaded!", "color": "#00ff00"}
 # =================================================================================
