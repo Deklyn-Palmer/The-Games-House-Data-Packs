@@ -2,10 +2,10 @@
 # 64x steak, wooden sword, gold armour, 2x instant health II, regen (1:30), strength (8:00), 2x Swift (3:00), 3x splash instant damage II, splash instant health II, 2x splash poison (00:45), splash slow (1:30), splash weakness (1:30)
 give @p cooked_beef 64
 give @p wooden_sword 1
-give @p golden_boots
-give @p golden_leggings
-give @p golden_chestplate
-give @p golden_helmet
+give @p golden_boots 1
+give @p golden_leggings 1
+give @p golden_chestplate 1
+give @p golden_helmet 1
 give @p potion{Potion:"minecraft:strong_healing"} 2
 give @p potion{Potion:"minecraft:long_regeneration"} 1
 give @p potion{Potion:"minecraft:long_strength"} 1
