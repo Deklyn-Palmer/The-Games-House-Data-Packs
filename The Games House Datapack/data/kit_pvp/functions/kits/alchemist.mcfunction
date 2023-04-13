@@ -13,5 +13,5 @@ give @p potion{Potion:"minecraft:swiftness"} 2
 give @p splash_potion{Potion:"minecraft:strong_harming"} 3
 give @p splash_potion{Potion:"minecraft:strong_healing"} 1
 give @p splash_potion{Potion:"minecraft:poison"} 2
-give @p splash_potion{Potion:"minecraft:slowness"} 3
-give @p splash_potion{Potion:"minecraft:weakness"} 3
+give @p splash_potion{Potion:"minecraft:slowness"} 1
+give @p splash_potion{Potion:"minecraft:weakness"} 1
