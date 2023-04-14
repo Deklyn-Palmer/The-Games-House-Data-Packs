@@ -1,11 +1,12 @@
 ## Trident & stuff
 # 3x pufferfish bucket, 64x steak, stone axe, turtle shell, chainmail armour (- helmet), shield, trident (loyalty)
-give @p pufferfish_bucket 3
-give @p cooked_beef 64
-give @p stone_axe 1
-give @p turtle_helmet 1
-give @p chainmail_boots 1
-give @p chainmail_leggings 1
-give @p chainmail_chestplate 1
-give @p shield 1
-give @p trident 1
+clear @s
+give @s pufferfish_bucket 3
+give @s cooked_beef 64
+give @s stone_axe 1
+give @s turtle_helmet 1
+give @s chainmail_boots 1
+give @s chainmail_leggings 1
+give @s chainmail_chestplate 1
+give @s shield 1
+give @s trident 1
