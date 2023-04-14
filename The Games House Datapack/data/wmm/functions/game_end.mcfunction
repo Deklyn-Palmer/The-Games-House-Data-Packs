@@ -1,7 +1,5 @@
 # Clear all teams
-execute in wmm run team empty wmm_murderer
-execute in wmm run team empty wmm_runners
-execute in wmm run team empty wmm_spectators
+execute in wmm run team leave @a
 
 # Clear all effects
 execute in wmm run effect clear @a
