@@ -27,10 +27,10 @@ execute as @a[predicate=in_wmm,team=wmm_runners] run execute if score wmm_dummy 
 execute if score wmm_dummy wmm_counter matches 1 run execute as @a[predicate=in_wmm,team=wmm_murderer] run playsound ambient.cave master @p[predicate=in_wmm,team=wmm_runners,distance=..20] ~ ~ ~ 100 0.9
 
 # When a runner dies
-execute if score @a[predicate=in_wmm,team=wmm_runners,limit=1] wmm_deathcounter matches 1 run scoreboard players add wmm_dummy wmm_runnersdead 1
-execute if score @a[predicate=in_wmm,team=wmm_runners,limit=1] wmm_deathcounter matches 1 run function wmm:runner_died
+execute as @a[predicate=in_wmm,team=wmm_runners,scores={wmm_deathcounter=1}] run scoreboard players add wmm_dummy wmm_runnersdead 1
+execute as @a[predicate=in_wmm,team=wmm_runners,scores={wmm_deathcounter=1}] run function wmm:runner_died
 execute as @a[predicate=in_wmm,team=wmm_runners,scores={wmm_deathcounter=1}] run team join wmm_spectators
-execute as @a[predicate=in_wmm,team=wmm_spectators,gamemode=survival] run gamemode spectator @s[predicate=in_wmm]
+execute as @a[predicate=in_wmm,team=wmm_runners,scores={wmm_deathcounter=1}] run gamemode spectator @s[predicate=in_wmm]
 
 # Determine when all runners are dead
 execute unless score wmm_dummy wmm_runnersdead matches 0 run execute if score wmm_dummy wmm_runnersdead = wmm_dummy wmm_runnercount run function wmm:game_end
