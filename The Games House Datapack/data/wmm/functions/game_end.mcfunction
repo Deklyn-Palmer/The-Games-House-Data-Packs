@@ -12,8 +12,8 @@ execute in wmm run execute as @a run gamemode survival
 
 # Reset all scores
 execute in wmm run scoreboard players reset @a
-execute in wmm run scoreboard players set wmm_dummy runnersdead 0
-execute in wmm run scoreboard players set wmm_dummy runnercount 0
+execute in wmm run scoreboard players set wmm_dummy wmm_runnersdead 0
+execute in wmm run scoreboard players set wmm_dummy wmm_runnercount 0
 
 # Cancel all scheduled functions
 execute in wmm run schedule clear wmm:game_timer/game_timer_5_minutes
