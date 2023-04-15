@@ -16,4 +16,4 @@ execute in wmm run effect give @a[team=wmm_murderer] glowing 10000 1 true
 execute in wmm run give @a[team=wmm_murderer] diamond_axe{display:{Name:'{"text":"THE AXE!","color":"red","bold":true}',Lore:['{"text":"Careful, it\'s sharp.","color":"yellow","italic":true}']},HideFlags:7,Unbreakable:1b,Enchantments:[{id:"minecraft:sharpness",lvl:100s}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-3.75,Operation:0,UUID:[I;1,1,1,1],Slot:"mainhand"}]} 1
 
 # Determine amount of Runners
-execute in wmm run execute as @a[team=wmm_runners] run scoreboard players add wmm_dummy runnercount 1
+execute in wmm run execute as @a[team=wmm_runners] run scoreboard players add wmm_dummy wmm_runnercount 1
