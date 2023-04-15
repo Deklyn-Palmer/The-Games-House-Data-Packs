@@ -9,3 +9,6 @@ scoreboard players set kit_pvp_dummy kit_pvp_gameisrunning 1
 
 # Reset world border
 worldborder set 202
+
+# Get all players in position
+execute as @a run function kit_pvp:player_position

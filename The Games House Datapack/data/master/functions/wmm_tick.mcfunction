@@ -29,8 +29,6 @@ execute if score wmm_dummy wmm_counter matches 1 run execute as @a[predicate=in_
 # When a runner dies
 execute as @a[predicate=in_wmm,team=wmm_runners,scores={wmm_deathcounter=1}] run scoreboard players add wmm_dummy wmm_runnersdead 1
 execute as @a[predicate=in_wmm,team=wmm_runners,scores={wmm_deathcounter=1}] run function wmm:runner_died
-execute as @a[predicate=in_wmm,team=wmm_runners,scores={wmm_deathcounter=1}] run team join wmm_spectators
-execute as @a[predicate=in_wmm,team=wmm_runners,scores={wmm_deathcounter=1}] run gamemode spectator @s[predicate=in_wmm]
 
 # Determine when all runners are dead
 execute unless score wmm_dummy wmm_runnersdead matches 0 run execute if score wmm_dummy wmm_runnersdead = wmm_dummy wmm_runnercount run function wmm:game_end
