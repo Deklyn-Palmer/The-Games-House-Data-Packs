@@ -30,7 +30,7 @@ execute in wmm run execute if score wmm_dummy wmm_counter matches 1 run execute 
 execute in wmm run execute if score @a[team=wmm_runners,limit=1] wmm_deathcounter matches 1 run scoreboard players add wmm_dummy wmm_runnersdead 1
 execute in wmm run execute if score @a[team=wmm_runners,limit=1] wmm_deathcounter matches 1 run function wmm:runner_died
 execute in wmm run execute as @a[team=wmm_runners,scores={wmm_deathcounter=1}] run team join wmm_spectator
-execute in wmm run execute as @a[team=wmm_spectator,gamemode=survival] run gamemode spectator
+execute in wmm run execute as @a[team=wmm_spectator,gamemode=survival] run gamemode spectator @s
 
 # Determine when all runners are dead
 execute in wmm run execute unless score wmm_dummy wmm_runnersdead matches 0 run execute if score wmm_dummy wmm_runnersdead = wmm_dummy wmm_runnercount run function wmm:game_end
