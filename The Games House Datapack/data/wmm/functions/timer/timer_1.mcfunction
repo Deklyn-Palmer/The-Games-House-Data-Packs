@@ -1,8 +1,8 @@
 # Display title
-execute in wmm run title @a title {"text":"1","color":"aqua"}
+title @a[predicate=in_wmm] title {"text":"1","color":"aqua"}
 
 # Schedule the next title
-execute in wmm run schedule function wmm:timer/timer_go 30t
+schedule function wmm:timer/timer_go 30t
 
 # Play a sound
-execute in wmm run execute as @a run playsound entity.experience_orb.pickup master @a ~ ~ ~ 100 1
+execute as @a[predicate=in_wmm] run playsound entity.experience_orb.pickup master @a[predicate=in_wmm] ~ ~ ~ 100 1

@@ -1,11 +1,11 @@
 # Set death score back to 0
-execute in wmm run scoreboard players set @a[team=wmm_runners] wmm_deathcounter 0
-execute in wmm run scoreboard players set @a[team=wmm_spectators] wmm_deathcounter 0
+scoreboard players set @a[predicate=in_wmm,team=wmm_runners] wmm_deathcounter 0
+scoreboard players set @a[predicate=in_wmm,team=wmm_spectators] wmm_deathcounter 0
 
 # Anounce a runner has died
-execute in wmm run title @a times 20 50 20
-execute in wmm run title @a title {"text":"A Runner Has Died!","color":"red"}
+title @a[predicate=in_wmm] times 20 50 20
+title @a[predicate=in_wmm] title {"text":"A Runner Has Died!","color":"red"}
 
 # Play a sound
-execute in wmm run playsound item.trident.thunder master @a ~ ~ ~ 100 0.8
-execute in wmm run playsound block.sculk_shrieker.shriek master @a ~ ~ ~ 100 0.8
+playsound item.trident.thunder master @a[predicate=in_wmm] ~ ~ ~ 100 0.8
+playsound block.sculk_shrieker.shriek master @a[predicate=in_wmm] ~ ~ ~ 100 0.8
