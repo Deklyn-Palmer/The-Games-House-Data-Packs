@@ -1,6 +1,6 @@
 # Set death score back to 0
-execute in wmm run scoreboard players set @a[team=wmm_runners] deaths 0
-execute in wmm run scoreboard players set @a[team=wmm_spectators] deaths 0
+execute in wmm run scoreboard players set @a[team=wmm_runners] wmm_deathcounter 0
+execute in wmm run scoreboard players set @a[team=wmm_spectators] wmm_deathcounter 0
 
 # Anounce a runner has died
 execute in wmm run title @a times 20 50 20
