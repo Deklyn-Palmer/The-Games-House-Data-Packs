@@ -22,9 +22,10 @@ tellraw @a {"text": "Woodland Mansion Murder Scoreboard Objectives Loaded!", "co
 # =================================== KIT PVP =====================================
 tellraw @a {"text": "Kit PVP Scoreboard Objectives Loading...", "color": "#ffa300"}
 
-scoreboard objectives add kpvp_deathcounter deathCount
-scoreboard objectives add kpvp_killstreak playerKillCount
-scoreboard objectives add kpvp_totalKills playerKillCount
+scoreboard objectives add kit_pvp_deathcounter deathCount
+scoreboard objectives add kit_pvp_killstreak playerKillCount
+scoreboard objectives add kit_pvp_totalKills playerKillCount
+scoreboard objectives add kit_pvp_gameisrunning dummy
 
 tellraw @a {"text": "Kit PVP Scoreboard Objectives Loaded!", "color": "#00ff00"}
 # =================================================================================
