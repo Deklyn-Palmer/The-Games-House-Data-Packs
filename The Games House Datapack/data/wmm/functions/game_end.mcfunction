@@ -4,6 +4,9 @@ team leave @a[predicate=in_wmm]
 # Clear all effects
 effect clear @a[predicate=in_wmm]
 
+# Clear inventories
+clear @a[predicate=in_wmm]
+
 # Stop all sounds
 stopsound @a[predicate=in_wmm]
 
@@ -11,7 +14,7 @@ stopsound @a[predicate=in_wmm]
 execute as @a[predicate=in_wmm] run gamemode survival
 
 # Reset all scores
-scoreboard players reset @a[predicate=in_wmm]
+scoreboard players reset @a[predicate=in_wmm] wmm_deathcounter
 scoreboard players set wmm_dummy wmm_runnersdead 0
 scoreboard players set wmm_dummy wmm_runnercount 0
 
