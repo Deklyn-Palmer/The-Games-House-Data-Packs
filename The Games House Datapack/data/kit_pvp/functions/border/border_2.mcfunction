@@ -6,5 +6,4 @@ title @a[predicate=in_kpvp] subtitle {"text":"Shrink In 3 minutes!", "bold":true
 execute if score kit_pvp_dummy kit_pvp_gameisrunning matches 1 run schedule function kit_pvp:border/border_3 180s
 
 # Set the world border size
-worldborder set 102 150
-worldborder center 0.5 0.5
+execute in minecraft:kpvp run worldborder set 102 150
