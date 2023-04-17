@@ -1,6 +1,6 @@
 # Display title and for how long
-execute in kpvp run title @a times 10 30 10
-execute in kpvp run title @a title {"text":"Game starts in:","color":"dark_green"}
+title @a[predicate=in_kpvp] times 10 30 10
+title @a[predicate=in_kpvp] title {"text":"Game starts in:","color":"dark_green"}
 
 # Schedule the next title
-execute in kpvp run schedule function kit_pvp:timer/timer_5 50t
+schedule function kit_pvp:timer/timer_5 50t
