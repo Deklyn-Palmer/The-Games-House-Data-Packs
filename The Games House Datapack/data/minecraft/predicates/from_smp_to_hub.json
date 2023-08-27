@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "position": {
+        "x": 115,
+        "y": 63,
+        "z": 143
+      },
+      "dimension": "minecraft:smp"
+    }
+  }  
